@@ -4,9 +4,18 @@
 \alias{diff_and_render}
 \title{Compare Two Tabular Datasets}
 \usage{
-diff_and_render(a, b, title = NULL, outfile = NULL, summary = TRUE,
-  ignore_whitespace = FALSE, never_show_order = TRUE,
-  unchanged_context = 0L, ..., verbose = TRUE)
+diff_and_render(
+  a,
+  b,
+  title = NULL,
+  outfile = NULL,
+  summary = TRUE,
+  ignore_whitespace = FALSE,
+  never_show_order = TRUE,
+  unchanged_context = 0L,
+  ...,
+  verbose = TRUE
+)
 }
 \arguments{
 \item{a}{`tibble`, `data.frame`, or path to file}
