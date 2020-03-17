@@ -1,7 +1,7 @@
 Package: difftools
 Type: Package
 Title: Provides Tools for Comparing Tabular Data
-Version: 2019.12.12
+Version: 2020.03.17
 Author: David Holstius <dholstius@baaqmd.gov>
 Maintainer: David Holstius <dholstius@baaqmd.gov>
 Description: More about what it does (maybe more than one line)
@@ -9,10 +9,11 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Depends:
   daff,
-  stringr
+  stringr,
+  diffobj
 Suggests:
   readxl,
   readr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.0.0
+RoxygenNote: 7.0.2
